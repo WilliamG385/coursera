@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Pseudo Classes</title>
+        <style>
+            a:link {
+                color: blue;
+            }
+            a:visited {
+                color: palegreen;
+            }
+            a:hover {
+                color: red;
+            }
+            a:active {
+                color: yellow;
+            }
+            button {
+                background-color: lightblue;
+                border-radius: 5px;
+            }
+            button:hover {
+                background-color: yellow;
+            }
+            button:active {
+                background-color: red;
+            }
+            li:nth-child(odd) {
+                background-color: lightgray;
+            }
+            li:nth-child(even) {
+                background-color: lightblue;
+            }
+            li:nth-child(2n) {
+                background-color: lightgreen;
+            }
+        </style>
+    </head>
+    <body>
+        <a href="https://www.google.com/">Google.com</a>
+        <button>SAVE</button>
+        <ul>
+            <li>item 1</li>
+            <li>item 2</li>
+            <li>item 3</li>
+            <li>item 4</li>
+            <li>item 5</li>
+        </ul>
+    </body>
+</html>
